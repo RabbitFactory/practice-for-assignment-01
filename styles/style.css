@@ -1,69 +1,98 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
-*
-{
-    font-family: "Open Sans", sans-serif;
-}
-
-.nav-title
-{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-}
-.text-primary
-{
-    color: #fd6e0a;
+* {
+  font-family: "Open Sans", sans-serif;
 }
 
-nav > ul 
-{
-    display: flex;
-    align-items: center;
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
-nav li
-{
-    list-style: none;
-    margin-right: 50px;
+.text-primary {
+  color: #fd6e0a;
 }
 
-nav a{
-
-    text-decoration: none;
-    color: #474747;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-.btn-primary
-{
-    border-radius: 5px;
-    background: #fd6e0a;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
 
-.header
-{
-    background-color: #fff8f3;
-    background-image: url('../portfolio-resources/images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 
+.header {
+  background-color: #fff8f3;
+  background-image: url("../portfolio-resources/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 
-.banner
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner img {
+  width: 500px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.banner-content
 {
-    padding: 30px 30px 30px 150px ;
-    display: flex;
-    align-items: center;
+  max-width: 500px;
+}
+
+.about
+{
+  padding: 150px;
+  background-color: #fff8f3;
+  margin: 130px 0;
+}
+
+.section-title
+{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 
 }
-.banner img
+
+.about p
 {
-    width: 500px;
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+
 }
